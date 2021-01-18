@@ -14,7 +14,7 @@ body{
     margin: auto;
     width: 40rem;
     padding:10px;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.1);
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
