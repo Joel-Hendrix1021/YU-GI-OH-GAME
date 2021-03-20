@@ -7,6 +7,7 @@ body {
     background-image: url('https://pa1.narvii.com/6389/2b01eb0fbc7b6355b739f2e506fb24879e25af7a_00.gif') ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .banner{
     width: 100%;
@@ -18,7 +19,8 @@ body {
 }
 
 #btn { 
-    margin: auto;
+    margin: auto ;
+    margin-top: 390px;
     display: block;
     background: yellow;
     width:15rem;
@@ -28,4 +30,10 @@ body {
     outline: none;
     cursor: pointer;
     font-family: 'Potta One', cursive;
+}
+
+@media(max-width: 764px){
+       #btn {
+           margin-top: 250px;
+       }
 }
